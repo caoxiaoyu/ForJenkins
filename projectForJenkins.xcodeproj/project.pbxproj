@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B7AB8C200358C000B6D63C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7AB8B200358C000B6D63C /* AppDelegate.m */; };
+		80B7AB8F200358C000B6D63C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7AB8E200358C000B6D63C /* ViewController.m */; };
+		80B7AB92200358C000B6D63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B7AB90200358C000B6D63C /* Main.storyboard */; };
+		80B7AB94200358C000B6D63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B7AB93200358C000B6D63C /* Assets.xcassets */; };
+		80B7AB97200358C000B6D63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B7AB95200358C000B6D63C /* LaunchScreen.storyboard */; };
+		80B7AB9A200358C000B6D63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7AB99200358C000B6D63C /* main.m */; };
+		80B7ABA4200358C000B6D63C /* projectForJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7ABA3200358C000B6D63C /* projectForJenkinsTests.m */; };
+		80B7ABAF200358C000B6D63C /* projectForJenkinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7ABAE200358C000B6D63C /* projectForJenkinsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B7ABA0200358C000B6D63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B7AB7F200358C000B6D63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B7AB86200358C000B6D63C;
+			remoteInfo = projectForJenkins;
+		};
+		80B7ABAB200358C000B6D63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B7AB7F200358C000B6D63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B7AB86200358C000B6D63C;
+			remoteInfo = projectForJenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80B7AB87200358C000B6D63C /* projectForJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectForJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B7AB8A200358C000B6D63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80B7AB8B200358C000B6D63C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80B7AB8D200358C000B6D63C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80B7AB8E200358C000B6D63C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80B7AB91200358C000B6D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B7AB93200358C000B6D63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B7AB96200358C000B6D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B7AB98200358C000B6D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B7AB99200358C000B6D63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80B7AB9F200358C000B6D63C /* projectForJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectForJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B7ABA3200358C000B6D63C /* projectForJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectForJenkinsTests.m; sourceTree = "<group>"; };
+		80B7ABA5200358C000B6D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B7ABAA200358C000B6D63C /* projectForJenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectForJenkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B7ABAE200358C000B6D63C /* projectForJenkinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectForJenkinsUITests.m; sourceTree = "<group>"; };
+		80B7ABB0200358C000B6D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B7AB84200358C000B6D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7AB9C200358C000B6D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7ABA7200358C000B6D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B7AB7E200358C000B6D63C = {
+			isa = PBXGroup;
+			children = (
+				80B7AB89200358C000B6D63C /* projectForJenkins */,
+				80B7ABA2200358C000B6D63C /* projectForJenkinsTests */,
+				80B7ABAD200358C000B6D63C /* projectForJenkinsUITests */,
+				80B7AB88200358C000B6D63C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B7AB88200358C000B6D63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B7AB87200358C000B6D63C /* projectForJenkins.app */,
+				80B7AB9F200358C000B6D63C /* projectForJenkinsTests.xctest */,
+				80B7ABAA200358C000B6D63C /* projectForJenkinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B7AB89200358C000B6D63C /* projectForJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				80B7AB8A200358C000B6D63C /* AppDelegate.h */,
+				80B7AB8B200358C000B6D63C /* AppDelegate.m */,
+				80B7AB8D200358C000B6D63C /* ViewController.h */,
+				80B7AB8E200358C000B6D63C /* ViewController.m */,
+				80B7AB90200358C000B6D63C /* Main.storyboard */,
+				80B7AB93200358C000B6D63C /* Assets.xcassets */,
+				80B7AB95200358C000B6D63C /* LaunchScreen.storyboard */,
+				80B7AB98200358C000B6D63C /* Info.plist */,
+				80B7AB99200358C000B6D63C /* main.m */,
+			);
+			path = projectForJenkins;
+			sourceTree = "<group>";
+		};
+		80B7ABA2200358C000B6D63C /* projectForJenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B7ABA3200358C000B6D63C /* projectForJenkinsTests.m */,
+				80B7ABA5200358C000B6D63C /* Info.plist */,
+			);
+			path = projectForJenkinsTests;
+			sourceTree = "<group>";
+		};
+		80B7ABAD200358C000B6D63C /* projectForJenkinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80B7ABAE200358C000B6D63C /* projectForJenkinsUITests.m */,
+				80B7ABB0200358C000B6D63C /* Info.plist */,
+			);
+			path = projectForJenkinsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B7AB86200358C000B6D63C /* projectForJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B7ABB3200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkins" */;
+			buildPhases = (
+				80B7AB83200358C000B6D63C /* Sources */,
+				80B7AB84200358C000B6D63C /* Frameworks */,
+				80B7AB85200358C000B6D63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projectForJenkins;
+			productName = projectForJenkins;
+			productReference = 80B7AB87200358C000B6D63C /* projectForJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B7AB9E200358C000B6D63C /* projectForJenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B7ABB6200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkinsTests" */;
+			buildPhases = (
+				80B7AB9B200358C000B6D63C /* Sources */,
+				80B7AB9C200358C000B6D63C /* Frameworks */,
+				80B7AB9D200358C000B6D63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B7ABA1200358C000B6D63C /* PBXTargetDependency */,
+			);
+			name = projectForJenkinsTests;
+			productName = projectForJenkinsTests;
+			productReference = 80B7AB9F200358C000B6D63C /* projectForJenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80B7ABA9200358C000B6D63C /* projectForJenkinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B7ABB9200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkinsUITests" */;
+			buildPhases = (
+				80B7ABA6200358C000B6D63C /* Sources */,
+				80B7ABA7200358C000B6D63C /* Frameworks */,
+				80B7ABA8200358C000B6D63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B7ABAC200358C000B6D63C /* PBXTargetDependency */,
+			);
+			name = projectForJenkinsUITests;
+			productName = projectForJenkinsUITests;
+			productReference = 80B7ABAA200358C000B6D63C /* projectForJenkinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B7AB7F200358C000B6D63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "曹晓雨";
+				TargetAttributes = {
+					80B7AB86200358C000B6D63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					80B7AB9E200358C000B6D63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B7AB86200358C000B6D63C;
+					};
+					80B7ABA9200358C000B6D63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B7AB86200358C000B6D63C;
+					};
+				};
+			};
+			buildConfigurationList = 80B7AB82200358C000B6D63C /* Build configuration list for PBXProject "projectForJenkins" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B7AB7E200358C000B6D63C;
+			productRefGroup = 80B7AB88200358C000B6D63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B7AB86200358C000B6D63C /* projectForJenkins */,
+				80B7AB9E200358C000B6D63C /* projectForJenkinsTests */,
+				80B7ABA9200358C000B6D63C /* projectForJenkinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B7AB85200358C000B6D63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7AB97200358C000B6D63C /* LaunchScreen.storyboard in Resources */,
+				80B7AB94200358C000B6D63C /* Assets.xcassets in Resources */,
+				80B7AB92200358C000B6D63C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7AB9D200358C000B6D63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7ABA8200358C000B6D63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B7AB83200358C000B6D63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7AB8F200358C000B6D63C /* ViewController.m in Sources */,
+				80B7AB9A200358C000B6D63C /* main.m in Sources */,
+				80B7AB8C200358C000B6D63C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7AB9B200358C000B6D63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7ABA4200358C000B6D63C /* projectForJenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7ABA6200358C000B6D63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7ABAF200358C000B6D63C /* projectForJenkinsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B7ABA1200358C000B6D63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B7AB86200358C000B6D63C /* projectForJenkins */;
+			targetProxy = 80B7ABA0200358C000B6D63C /* PBXContainerItemProxy */;
+		};
+		80B7ABAC200358C000B6D63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B7AB86200358C000B6D63C /* projectForJenkins */;
+			targetProxy = 80B7ABAB200358C000B6D63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B7AB90200358C000B6D63C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B7AB91200358C000B6D63C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B7AB95200358C000B6D63C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B7AB96200358C000B6D63C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B7ABB1200358C000B6D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80B7ABB2200358C000B6D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B7ABB4200358C000B6D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B7ABB5200358C000B6D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80B7ABB7200358C000B6D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectForJenkins.app/projectForJenkins";
+			};
+			name = Debug;
+		};
+		80B7ABB8200358C000B6D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectForJenkins.app/projectForJenkins";
+			};
+			name = Release;
+		};
+		80B7ABBA200358C000B6D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = projectForJenkins;
+			};
+			name = Debug;
+		};
+		80B7ABBB200358C000B6D63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = projectForJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.projectForJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = projectForJenkins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B7AB82200358C000B6D63C /* Build configuration list for PBXProject "projectForJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B7ABB1200358C000B6D63C /* Debug */,
+				80B7ABB2200358C000B6D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B7ABB3200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B7ABB4200358C000B6D63C /* Debug */,
+				80B7ABB5200358C000B6D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B7ABB6200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B7ABB7200358C000B6D63C /* Debug */,
+				80B7ABB8200358C000B6D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B7ABB9200358C000B6D63C /* Build configuration list for PBXNativeTarget "projectForJenkinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B7ABBA200358C000B6D63C /* Debug */,
+				80B7ABBB200358C000B6D63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B7AB7F200358C000B6D63C /* Project object */;
+}
